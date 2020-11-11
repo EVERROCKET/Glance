@@ -33,14 +33,14 @@ p, li {
 }
 
 button {
-    background: #0f62fe;
+    background: #0F62FE;
     border: none;
-    padding: 15px 30px;
-    border-radius: 30px;
+    padding: 20px 36px;
+    border-radius: 1px;
     font-family: 'Inter';
     font-size: 16px;
     font-weight: 500;
-    color: #FFFFFF;
+    color: #ffffff;
     letter-spacing: 0.16px;
     line-height: 18px;
 }
