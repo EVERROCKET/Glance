@@ -26,19 +26,35 @@ h3 {
 .learn-more {
     color: #0F62FE;
     text-decoration: none;
+    &:hover {
+        text-decoration: none;
+        color: #266CF1;
+        .icon {
+            transform: translateX(5px);
+        }
+    }
 }
+
+// .icon {
+//     margin-left: 4px;
+//     position: relative;
+//     right: 0;
+//     transition: all .25s ease-in-out;
+//     width: 14px;
+//     height: 14px;
+// }
 
 .learn-more:hover {
     text-decoration: none;
     color: #266CF1;
-    .icon {
-        margin-left: 4px;
-        position: relative;
-        right: 0;
-        transition: all .25s ease-in-out;
-        width: 14px;
-        height: 14px;
-    }
+    // .icon {
+    //     margin-left: 4px;
+    //     position: relative;
+    //     right: 0;
+    //     transition: all .25s ease-in-out;
+    //     width: 14px;
+    //     height: 14px;
+    // }
 }
 
 /* .icon {
@@ -50,9 +66,9 @@ h3 {
     height: 14px;
 } */
 
-.icon:hover {
-    right: -5px;
-}
+// .icon:hover {
+//     right: -5px;
+// }
 
 
 p, li {
